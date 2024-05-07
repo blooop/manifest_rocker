@@ -1,0 +1,8 @@
+add-apt-repository_software-sources:
+  - ppa:christian-boxdoerfer/fsearch-stable
+
+apt_main:
+  - fsearch
+
+script_test:
+  - test.sh

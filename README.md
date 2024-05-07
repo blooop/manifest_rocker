@@ -19,7 +19,8 @@ This is a manifest repo which contains configurations for [dep_rocker](https://g
 
 Layer order:
 - base: The bottom layer
-- sources: Set up apt repositories e.g add-apt-repo, wget, gpg key, git, svn etc
+- repository-software-sources: Set up apt repositories e.g add-apt-repo, wget gpg key
+- version-control: add git, svn etc
 - language-toolchain : add python, c++ rust etc
 - tools: other tools
 - expensive: expensive dependencies (cuda, torch etc)
