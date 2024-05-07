@@ -1,0 +1,18 @@
+apt_base:
+  - libgl1-mesa-dev
+  - libxrender-dev  
+
+apt_tools:
+  - git
+  - git-lfs
+  - python3-pip
+  - apt-utils
+  - jq
+  - make
+  - cmake
+  - gcc
+  - build-essential  
+  - python3-dev
+
+script_main:
+  - install_palanter.sh  
