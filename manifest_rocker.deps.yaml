@@ -1,0 +1,6 @@
+apt_version-control:
+  - git
+  - git-lfs
+  - jq
+
+
