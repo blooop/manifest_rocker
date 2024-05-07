@@ -1,0 +1,49 @@
+#Template package  Uncomment or modify these entries.
+
+env_base:
+  - TORCH_CUDA_ARCH_LIST="7.0+PTX"
+
+apt_sources:
+  - ca-certificates #needed for wget
+  - wget
+  - curl
+  - git
+  - git-lfs
+
+script_sources:
+  - sources.sh
+
+apt_cuda:
+  - cuda-nvcc-11-8
+
+apt_language-toolchain:
+  - python3-pip
+  - python3-dev
+
+pip_language-toolchain:
+  - pip #upgrade pip
+
+script_torch:
+  - install_torch.sh
+
+script_curobo:
+  - install_curobo.sh
+
+# apt_tools:
+  # - colcon
+
+# apt_main:
+  # - fsearch
+
+# apt:
+  # - fsearch
+
+# script_build:
+#   - build.sh
+
+# script_lint:
+#   - lint.sh
+
+# script_test:
+#   - test.sh
+
