@@ -1,0 +1,18 @@
+apt_version-control:
+  - git
+  - git-lfs
+
+apt_language-toolchain:
+  - curl
+  - make  
+  - cmake
+  - gcc
+  - build-essential  
+
+script_language-toolchain:
+  - install_rustup.sh
+
+script_main:
+  - install_urdf_viz.sh
+
+
