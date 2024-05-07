@@ -1,0 +1,16 @@
+apt_version-control:
+  - git
+  - git-lfs
+  - python3-pip
+  - apt-utils
+  - jq
+
+apt_dev-tools:
+  - python3-pip
+  - apt-utils
+  - jq
+
+pip_language-toolchain:
+  - flit
+  - pip #updates to latest pip
+
