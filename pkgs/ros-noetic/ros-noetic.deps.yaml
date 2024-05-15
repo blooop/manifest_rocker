@@ -20,8 +20,8 @@ script_sources:
 apt_ros-base:
   - ros-noetic-ros-base
 
-apt_tools:
-  - colcon
+# apt_tools:
+  # - colcon
 
 # script_build:
 #   - build.sh
