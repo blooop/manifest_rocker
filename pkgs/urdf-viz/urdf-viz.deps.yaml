@@ -6,7 +6,6 @@ script_language-toolchain:
   - install_rustup.sh
 
 apt_language-toolchain:
-  # - make  
   - cmake
   - gcc
   - build-essential  
