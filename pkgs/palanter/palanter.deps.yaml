@@ -1,17 +1,20 @@
 apt_base:
+  - build-essential  
+
+apt_io:
   - libgl1-mesa-dev
   - libxrender-dev  
 
-apt_tools:
+apt_sources:
   - git
   - git-lfs
   - python3-pip
   - apt-utils
-  - jq
+
+apt_langage-toolchain:
   - make
   - cmake
   - gcc
-  - build-essential  
   - python3-dev
 
 script_main:
