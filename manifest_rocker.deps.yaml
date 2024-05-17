@@ -1,6 +1,8 @@
-apt_version-control:
+apt_vscode:
+  - jq
+
+apt_sources:
   - git
   - git-lfs
-  - jq
 
 
