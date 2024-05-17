@@ -6,7 +6,7 @@
 # apt_base:
 #   - build-essentials
 
-apt_drivers:
+apt_io:
   - libasound2
 
 apt_sources:
