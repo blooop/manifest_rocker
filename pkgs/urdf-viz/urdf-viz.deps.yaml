@@ -1,18 +1,17 @@
 apt_sources:
-  - git
-  - git-lfs
-
-apt_language-toolchain:
+  - ca-certificates
   - curl
-  - make  
-  - cmake
-  - gcc
-  - build-essential  
 
 script_language-toolchain:
   - install_rustup.sh
 
-script:
+apt_language-toolchain:
+  # - make  
+  - cmake
+  - gcc
+  - build-essential  
+
+script_main:
   - install_urdf_viz.sh
 
 
