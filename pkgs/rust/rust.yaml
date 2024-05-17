@@ -1,0 +1,6 @@
+apt_sources: #apt dependencies for setting up software sources
+  - ca-certificates
+  - curl
+
+script_language-toolchain:
+  - install_rustup.sh
