@@ -1,4 +1,4 @@
-apt_version-control:
+apt_sources:
   - git
   - git-lfs
 
@@ -12,7 +12,7 @@ apt_language-toolchain:
 script_language-toolchain:
   - install_rustup.sh
 
-script_main:
+script:
   - install_urdf_viz.sh
 
 
