@@ -11,7 +11,7 @@ cd "$SCRIPT_DIR"/..
 
 git submodule update --init --recursive
 
-CONTAINER_NAME="$(basename "$(pwd)")-$(git rev-parse --abbrev-ref HEAD)"
+CONTAINER_NAME=${PWD##*/}  
 
 echo "stopping existing container" "$CONTAINER_NAME" 
 docker stop "$CONTAINER_NAME" || true 
