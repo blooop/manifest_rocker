@@ -32,3 +32,5 @@ apt_ros-base:
 # script_test:
 #   - test.sh
 
+script_entrypoint-user:
+  - entrypoint.sh
