@@ -1,0 +1,6 @@
+[submodule "pkgs/pyopenxr_examples"]
+	path = pkgs/pyopenxr_examples
+	url = https://github.com/cmbruns/pyopenxr_examples.git
+[submodule "pkgs/pyopenxr/OpenXR-SDK"]
+	path = pkgs/pyopenxr/OpenXR-SDK
+	url = https://github.com/KhronosGroup/OpenXR-SDK.git
