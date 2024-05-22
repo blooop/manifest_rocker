@@ -1,7 +1,7 @@
 #Template package  Uncomment or modify these entries.
 
 env_base:
-  - ROS_DISTRO=noetic
+  - ROS_DISTRO=humble
 
 # apt_base:
 #   - build-essentials
@@ -18,7 +18,7 @@ script_sources:
   - sources.sh
 
 apt_ros-base:
-  - ros-noetic-ros-base
+  - ros-humble-ros-core
 
 # apt_tools:
   # - colcon
