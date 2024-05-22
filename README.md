@@ -1,25 +1,11 @@
-# python_template
-A template repo for python projects
-
-This has basic setup for
-
-* pylint
-* ruff
-* black
-* pytest
-* codecov
-* git-lfs
-* basic github actions ci
-* pulling updates from this template
-
-
 # manifest_rocker
 
-This is a manifest repo which contains configurations for [dep_rocker](https://github.com/blooop/deps_rocker) extension for automating dependency installation.  The aim is to allow a projects to define its development dependencies in a deps.yaml file which are added to the rocker container. The extension will recursivly search for deps.yaml files and run the install commands in several layers.  
+This is a manifest repo which contains configurations for [deps_rocker](https://github.com/blooop/deps_rocker) extension for automating dependency installation.  The aim is to allow a projects to define its development dependencies in a deps.yaml file which are added to the rocker container. The extension will recursivly search for deps.yaml files and run the install commands in several layers.  
 
 Layer order:
 - base: The bottom layer
 - sources: Set up apt repositories e.g add-apt-repo, wget, gpg key, git, svn etc
+- io: Set up graphics, sound, input devices etc.
 - language-toolchain : add python, c++ rust etc
 - tools: other tools
 - expensive: expensive dependencies (cuda, torch etc)
@@ -32,7 +18,7 @@ Layer order:
 run with:
 
 ```
-rocker --deps-dependencies ubuntu:22.04
+rocker --deps ubuntu:22.04
 ```
 
 
