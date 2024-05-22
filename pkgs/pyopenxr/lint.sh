@@ -1,0 +1,3 @@
+#!/bin/bash
+
+#Lint code
