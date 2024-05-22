@@ -1,0 +1,54 @@
+# # Template package  Uncomment or modify these entries.
+
+# env_base:
+#   - DEPS_ROCKER=1
+
+# apt_base: #lowest level of dependency that changes very infrequently
+#   - build-essentials
+
+# apt_io: #graphics sound, input devices etc
+#   - libasound2
+
+# apt_sources: #apt dependencies for setting up software sources
+#   - ca-certificates #needed for wget
+#   - wget
+#   - curl
+#   - lsb-release
+#   - gnupg2
+#   - git
+#   - git-lfs
+
+# script_sources: #scripts for adding repositories or repo keys
+#   - sources.sh
+
+apt_language-toolchain: #packges related to setting up languages e.g. c++,python,rust etc
+  - python3-pip
+#   - make
+#   - gcc
+
+pip_language-toolchain: #install basic development tools which almost never change
+  - pip #this updates pip to latest version
+#   - flit
+#   - pytest
+#   - ruff
+
+# apt_tools: #any other development tools
+#   - colcon
+
+# apt: #the main dependencies of the package
+#   - fsearch
+
+pip:
+  - build123d
+
+# pyproject: #Scan for all pyproject.tomls and install
+#   - all
+
+# script_build: #any build steps
+#   - build.sh
+
+# script_lint: 
+#   - lint.sh
+
+# script_test:
+#   - test.sh
