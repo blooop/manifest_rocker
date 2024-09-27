@@ -10,6 +10,10 @@ apt_language-toolchain:
   - gcc
   - build-essential  
 
+apt_gfx:
+  - libxcursor1
+  - libxi6
+
 script_main:
   - install_urdf_viz.sh
 
