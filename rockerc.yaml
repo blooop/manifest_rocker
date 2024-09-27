@@ -9,7 +9,7 @@ image: ros:humble
 args:
   - nvidia
   - x11 
-  - cuda
+  # - cuda
   - user 
   - pull 
   - deps
