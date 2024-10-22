@@ -1,7 +1,7 @@
 #Template package  Uncomment or modify these entries.
 
-env_base:
-  - TORCH_CUDA_ARCH_LIST="7.0+PTX"
+# env_base:
+  # - TORCH_CUDA_ARCH_LIST="7.0+PTX"
 
 apt_sources:
   - ca-certificates #needed for wget
