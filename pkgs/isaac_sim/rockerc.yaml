@@ -5,7 +5,8 @@
 # - image: Specifies the base image to pass to rocker
 # - args: Lists additional features or tools to be added to the docker image
 
-image: nvcr.io/nvidia/isaac-sim:4.2.0
+# image: nvcr.io/nvidia/isaac-sim:4.2.0
+image: nvidia/cuda:12.2.2-devel-ubuntu22.04
 # image: ros:humble
 args:
   - nvidia
