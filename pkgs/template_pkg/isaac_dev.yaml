@@ -1,0 +1,18 @@
+apt_tools:
+  - git
+  - git-lfs
+  - python3-pip
+  - jq #for auto installing extensions in container
+
+pip_language-toolchain:
+  - uv #use uv instead of pip
+  - pip #update to the latest pip
+
+# apt_vulkan:
+#   - libgtk-3-dev 
+#   - libxkbcommon-x11-0 
+#   - vulkan-tools 
+#   - mesa-vulkan-drivers
+
+# apt_ros:
+  # - ros-humble-moveit
