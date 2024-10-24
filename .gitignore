@@ -164,3 +164,4 @@ cython_debug/
 #COLCON
 install/**
 log/**
+metadata.json
