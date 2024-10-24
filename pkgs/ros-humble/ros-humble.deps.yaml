@@ -20,6 +20,9 @@ script_sources:
 apt_ros-base:
   - ros-humble-ros-core
 
+apt_ros-tools:
+  - ros-humble-rviz2
+
 # apt_tools:
   # - colcon
 
