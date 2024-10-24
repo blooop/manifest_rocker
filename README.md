@@ -27,7 +27,6 @@ rocker --deps ubuntu:22.04
 The order of the layers relies on convention.  If different projects use a different convention then combining them may break in weird ways
 
 
-
 ## Continuous Integration Status
 
 [![Ci](https://github.com/blooop/python_template/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/blooop/python_template/actions/workflows/ci.yml?query=branch%3Amain)
@@ -39,4 +38,3 @@ The order of the layers relies on convention.  If different projects use a diffe
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)](https://www.python.org/downloads/release/python-310/)
 
 
-To set up your project run the vscode task "pull updates from template repo" and then task "rename project template name"
