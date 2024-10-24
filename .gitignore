@@ -164,4 +164,9 @@ cython_debug/
 #COLCON
 install/**
 log/**
-metadata.json
+# pixi environments
+.pixi
+*.egg-info
+
+managed_context/metadata.json
+test_suite_analysis/metadata.json
