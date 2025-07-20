@@ -1,0 +1,3 @@
+[submodule "pkgs/rocker"]
+	path = pkgs/rocker
+	url = https://github.com/osrf/rocker.git
