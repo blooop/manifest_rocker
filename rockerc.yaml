@@ -9,6 +9,7 @@ image: ubuntu:24.04
 args:
   - nvidia
   - x11 
+  - vulkan
   - user 
   - ssh
   - pull 
