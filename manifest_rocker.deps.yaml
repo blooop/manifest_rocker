@@ -2,6 +2,7 @@ apt_version-control:
   - git
   - git-lfs
   - jq
+  - ssh
 apt_archive:
   - unzip
 
