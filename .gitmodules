@@ -1,0 +1,3 @@
+[submodule "pkgs/cpp-example-ros2-bridge"]
+	path = pkgs/cpp-example-ros2-bridge
+	url = git@github.com:blooop/cpp-example-ros2-bridge.git
