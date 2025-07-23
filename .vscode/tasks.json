@@ -162,19 +162,19 @@
 			"type": "shell",
 			"command": "scripts/launch_vscode.sh"
 		},
-		{
-            "label": "Install All Recommended Extensions",
-            "type": "shell",           
-            "linux": {
-                "command": "cat .vscode/extensions.json | jq .recommendations[] | xargs -n 1 code . --install-extension"
-            },
-            "runOptions": {
-                "runOn": "folderOpen"
-            },
-            "presentation": {
-                "reveal": "always"
-            },
-        },	
+		// {
+        //     "label": "Install All Recommended Extensions",
+        //     "type": "shell",           
+        //     "linux": {
+        //         "command": "cat .vscode/extensions.json | jq .recommendations[] | xargs -n 1 code . --install-extension"
+        //     },
+        //     "runOptions": {
+        //         "runOn": "folderOpen"
+        //     },
+        //     "presentation": {
+        //         "reveal": "always"
+        //     },
+        // },	
 		{
             "label": "set git config recurse submodules",
             "type": "shell",           
