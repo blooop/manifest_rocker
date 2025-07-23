@@ -10,16 +10,16 @@ This repository includes a workspace management tool that allows you to easily s
 
 ```bash
 # Add a new workspace from a remote repository
-python3 scripts/workspace.py add user/repo:branch workspace-name
+./scripts/workspace add user/repo:branch workspace-name
 
 # Open an existing workspace in VS Code
-python3 scripts/workspace.py open workspace-name
+./scripts/workspace open workspace-name
 
 # List all available workspaces
-python3 scripts/workspace.py list
+./scripts/workspace list
 
 # Remove a workspace
-python3 scripts/workspace.py remove workspace-name
+./scripts/workspace remove workspace-name
 ```
 
 See [docs/workspace-tool.md](docs/workspace-tool.md) for detailed documentation.

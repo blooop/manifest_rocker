@@ -4,13 +4,7 @@ The workspace tool allows you to manage different codebases as separate git bran
 
 ## Installation
 
-The tool is located at `scripts/workspace.py` and can be run directly with Python 3:
-
-```bash
-python3 scripts/workspace.py [command] [arguments]
-```
-
-Alternatively, you can use the wrapper script:
+The tool is located at `scripts/workspace` and can be run directly:
 
 ```bash
 ./scripts/workspace [command] [arguments]
