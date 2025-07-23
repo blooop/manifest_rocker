@@ -2,6 +2,30 @@
 
 This is a manifest repo which contains configurations for [deps_rocker](https://github.com/blooop/deps_rocker) extension for automating dependency installation.  The aim is to allow a projects to define its development dependencies in a deps.yaml file which are added to the rocker container. The extension will recursivly search for deps.yaml files and run the install commands in several layers.  
 
+## Workspace Management Tool
+
+This repository includes a workspace management tool that allows you to easily switch between different codebases using git branches and worktrees. This is particularly useful for manifest repositories where each branch represents a completely different codebase.
+
+### Quick Start
+
+```bash
+# Add a new workspace from a remote repository
+python3 scripts/workspace.py add user/repo:branch workspace-name
+
+# Open an existing workspace in VS Code
+python3 scripts/workspace.py open workspace-name
+
+# List all available workspaces
+python3 scripts/workspace.py list
+
+# Remove a workspace
+python3 scripts/workspace.py remove workspace-name
+```
+
+See [docs/workspace-tool.md](docs/workspace-tool.md) for detailed documentation.
+
+## Dependencies and Rocker  
+
 Layer order:
 - base: The bottom layer
 - sources: Set up apt repositories e.g add-apt-repo, wget, gpg key, git, svn etc
