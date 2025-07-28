@@ -11,3 +11,5 @@ args:
   - ssh
   - pull 
   - git 
+  - nodokcerfile
+  - git-clone
